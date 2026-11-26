@@ -1331,3 +1331,47 @@ h1, h2, h3, .logo {
 img[src="img/airalert.jpg"] {
     cursor: zoom-in;
 }
+/* Исправление мобильной версии для Safari */
+
+@media (max-width: 600px) {
+    .hero {
+        min-height: 850px;
+    }
+
+    .code-window {
+        width: 105px;
+        top: auto;
+        bottom: 65px;
+        left: 7%;
+    }
+
+    .glasses {
+        width: 95px;
+        top: auto;
+        bottom: 125px;
+        right: 5%;
+    }
+
+    .formula-paper {
+        width: 100px;
+        top: auto;
+        bottom: 55px;
+        right: 7%;
+    }
+
+    .handwritten {
+        bottom: 15px;
+    }
+
+    .sticky-note {
+        top: 5%;
+    }
+
+    .machine-label {
+        top: 17%;
+    }
+
+    .scrap {
+        pointer-events: none;
+    }
+}
